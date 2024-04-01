@@ -1,0 +1,125 @@
+body {
+    background-image: url('black.webp');
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calc {
+    margin: auto;
+    background-image: url('gray.jpg');
+    width: 30%;
+    height: 930px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px;
+}
+
+.maininput {
+    background-color: rgb(247, 242, 242);
+    border: 1px solid grey;
+    height: 100px;
+    width: 98.2%;
+    font-size: 80px;
+    color: rgb(10, 10, 10);
+    font-weight: 00;
+}
+
+.numbtn {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(0, 128, 255); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.numbtn:hover {
+    background-color: rgb(0, 102, 204); /* Change to desired hover color */
+    color: whitesmoke;
+}
+
+.calbtn {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(255, 69, 0); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.calbtn:hover {
+    background-color: rgb(204, 51, 0); /* Change to desired hover color */
+    color: whitesmoke;
+}
+
+.c {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(255, 0, 0); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.c:hover {
+    background-color: rgb(204, 0, 0); /* Change to desired hover color */
+    color: whitesmoke;
+}
+
+.ce {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(255, 165, 0); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.ce:hover {
+    background-color: rgb(204, 136, 0); /* Change to desired hover color */
+    color: whitesmoke;
+}
+
+.equal {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(0, 204, 0); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.equal:hover {
+    background-color: rgb(0, 153, 0); /* Change to desired hover color */
+    color: whitesmoke;
+}
+
+/* Style for the modulo (%) button */
+.calbtn.modulo {
+    background-color: rgb(65, 105, 225); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.calbtn.modulo:hover {
+    background-color: rgb(30, 144, 255); /* Change to desired hover color */
+}
+
+/* Style for the positive/negative sign toggle button */
+.calbtn.toggle {
+    background-color: rgb(255, 215, 0); /* Change to desired color */
+    color: black; /* Change to desired color */
+}
+
+.calbtn.toggle:hover {
+    background-color: rgb(238, 180, 34); /* Change to desired hover color */
+}
+
+/* Style for the decimal point (.) button */
+.numbtn.decimal {
+    background-color: rgb(80, 80, 80); /* Change to desired color */
+    color: white; /* Change to desired color */
+}
+
+.numbtn.decimal:hover {
+    background-color: rgb(60, 60, 60); /* Change to desired hover color */
+}
